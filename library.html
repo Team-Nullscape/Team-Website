@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Team Nullscape</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 20px;
+            text-align: left;
+        }
+
+        #headDiv1 {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        #headSpan1 {
+            font-size: 28px;
+            margin: 0;
+            color:white;
+        }
+        hr {
+            border-top: 2px solid rgba(255,255,255,0.6);
+            margin: 12px 0;
+        }
+        #header{
+            background-color:#252525;
+        }
+        #footer{
+            text-align: center;
+            background-color: #252525;
+            color:white;
+            padding:20px;
+        }
+        #headButt1{
+            border-style:hidden;
+            background-color: #252525;
+            color:white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+        }
+        #divs{
+            border-radius:20px;
+            box-shadow:0 10px 20px #252525;
+            margin:20px;
+            padding: 10px;
+            text-align: center;
+            width:25%;
+        }
+        #buttons{
+            border-radius:10px;
+            border-color:rgb(233, 233, 233);
+            border-style:groove;
+            font-family:'Courier New', Courier, monospace;
+            font-weight:bold;
+            font-size:large;
+            width:50%;
+            height:40px;
+            border-width: 5px;
+        }
+        #flex-div{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .banner-container {
+            position: relative;
+            display: inline-block;
+            margin: 20px;
+        }
+        #minImg1 {
+            border-radius: 20px;
+            width: 1400px;
+            height: 850px;
+            display: block;
+        }
+        #PurpHR{
+            border-radius:20px;
+            border:none;
+        }
+        #div1 {
+            position: absolute;
+            bottom: 30px;        /* Distance from bottom of image */
+            left: 30px;          /* Distance from left of image */
+            background-color: #a000ff;
+            color: white;
+            width: 760px;        /* Adjusted for better look */
+            padding: 25px 30px;
+            border-radius: 12px;
+            text-align: left;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Nice depth */
+        }
+    </style>
+</head>
+<body>
+
+    <header id="header">
+        <div id="headDiv1">
+            <img src="assets/logo.png" alt="Logo" width="50px" height="50px">
+            <b id="headSpan1">Team Nullscape</b>
+            <hr style="height:25px;">
+            <b style="color:white; font-size: large;">Library</b>
+            <button id="headButt1" onclick="window.location.href='index.html'">Home</button>
+            <button id="headButt1" onclick="window.location.href='games.html'">Games</button>
+        </div>
+    </header>
+
+    <div class="banner-container">
+        <img id="minImg1" src="assets/banner.png" alt="Banner">
+        
+        <!-- Purple Box on top of the image -->
+        <div id="div1">
+            <span id="div1Span1">Team Nullscape</span>
+            <hr id="PurpHR">
+            <b id="div1Span2">Sculpt nothing into something, something worth suffering for.</b>
+        </div>
+    </div>
+
+    <div id="flex-div">
+
+        <div id="divs">
+            <h3>I. The Falling Stars</h3>
+            <button id="buttons">Read</button>
+        </div>
+
+        <div id="divs">
+            <h3>II. The Sky Rift & The Nature Master</h3>
+            <button id="buttons">Read</button>
+        </div>
+
+        <div id="divs">
+            <h3>III. The Masters & The Aegis-Bound</h3>
+            <button id="buttons">Read</button>
+        </div>
+
+        <div id="divs">
+            <h3>​IV. The Void Master</h3>
+            <button id="buttons">Read</button>
+        </div>
+
+        <div id="divs">
+            <h3>​V. The Black and Gold Heretic</h3>
+            <button id="buttons">Read</button>
+        </div>
+
+        <div id="divs">
+            <h3>VI. The Master Mauler</h3>
+            <button id="buttons">Read</button>
+        </div>
+
+        <div id="divs">
+            <h3>VII. The Earth Armory (The DLC)</h3>
+            <button id="buttons">Read</button>
+        </div>
+
+        <div id="divs">
+            <h3>VIII. The Nullspace (DIMEN{REDACTED})</h3>
+            <button id="buttons">Read</button>
+        </div>
+
+        <div id="divs">
+            <h3>VIIII. Void Warps & The Feeding Cycle</h3>
+            <button id="buttons">Read</button>
+        </div>
+    </div>
+    <footer id="footer">
+        <b>Sculpt nothing into something, something worth suffering for.</b>
+    </footer>
+
+</body>
+</html>
